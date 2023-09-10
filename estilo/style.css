@@ -100,4 +100,55 @@ input::placeholder {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.329);
 }
 
+@media only screen and (max-width: 813px) {
+
+    #cabecalho > h1 {
+        font-size: 30px;
+       
+   
+        
+    }
+
+    #alguns-dados {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    #alguns-dados p {
+        margin-bottom: 15px;
+    }
+
+    #sobre-colum {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    #sobre-colum h1 {
+        text-align: center;
+    }
+
+    #sobre-colum p {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+    }
+
+    #sobre-colum p > br {
+        display: none;
+    }
+
+    #sobre-colum img {
+        width: 300px;
+        margin-left: auto;
+        margin-top: 50px;
+       
+
+    }
+
+}
 
